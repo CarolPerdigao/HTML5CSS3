@@ -1,0 +1,114 @@
+*{
+    font-family:Garamond;
+    font-size: 12;
+    font-weight: bold;
+}
+#container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+body{
+    background-color: #E4EFF3;
+}
+
+nav{
+    text-align: right;
+    padding: 10px;
+    margin: 0px;
+}
+nav ol{
+    list-style: none; /* estilo de lista = nenhum*/
+}
+nav ol li{
+    display: inline;
+    text-transform: uppercase; /*transforma o texto em maiusculo*/
+}
+nav ol li a{
+    padding: 10px;
+    display: inline-block; /*bloqueia a line com que esta dentro dele*/
+    color: #4C5659;
+    text-decoration: none; /* remove o sublinhado da line*/
+    border-bottom: #8FA2A8 solid 3px;
+}
+footer{
+    color: #4C5659;
+    padding: 10px;
+    text-align: center;
+}
+nav ol li a:hover{ /*Hover, quando o mouse estiver em cima*/
+    color: #E4EFF3;
+    background-color: #8FA2A8;
+}
+#alunos{
+    text-align: center;
+}
+#curso{
+    text-align: center;
+}
+#professores{
+    text-align: center;
+}
+figure{
+    background-color: #425359;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.8;
+    text-align: center;
+}
+figure:hover{
+    opacity: 1;
+}
+figcaption a{
+    text-decoration: none;
+    color: #E4EFF3;
+}
+#materias h1{
+    color: #4C5659;
+    padding: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+}
+table{
+    margin: 20px auto ;
+    border-radius: 5px;
+    width: 70%;
+    height: 50%;
+}
+th{
+    background-color: #4C5659;
+    color: #fff;
+    padding: 5px;
+}
+.cor{
+    background-color: #B8D0D9;
+}
+.color{
+    background-color: #E4EFF3 ;
+}
+td{
+    padding: 10px;
+}
+.salunos{
+    background-color: #425359;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 1;
+}
+.sobre{
+    width: 270px ;
+    border: 5px solid #b8d0d9;
+    border-radius: 10px;
+    background-color: #b8d0d9;
+    color: #4c5659;
+    margin:18px auto;
+    margin-right: 250px;
+    top: -240px;
+    bottom: 350px;
+    position: relative;
+    left: -150px;
+}
